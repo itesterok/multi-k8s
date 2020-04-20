@@ -15,7 +15,7 @@ after_success:
  - docker build -t borovenskiy/multi-worker ./worker
  # Log in into docker CLI
  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
- # Take thos eimages and puch them to docker hub
+ # Take those images and push them to docker hub
  - docker push borovenskiy/multi-client
  - docker push borovenskiy/multi-nginx
  - docker push borovenskiy/multi-server
