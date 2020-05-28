@@ -10,7 +10,9 @@ function App() {
 	<Router>
 		<div>
 			<header>
+			  <h1 className="App-title">Fib Caluclator version KUBERNETES!</h1>
 				<Link to="/">Home</Link>
+				<div />
 				<Link to="/otherpage">Other Page</Link>
 			</header>
 			<div>
